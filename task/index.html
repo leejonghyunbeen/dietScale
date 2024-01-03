@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제</title>
+    <style>
+        main { 
+            text-align: center;
+            border: 3px solid red;
+            background-color: lime;
+        }
+        main h1 {background-color: red;}
+        main p {
+            color: red;
+        }
+        main ul {}
+        main ul li {padding: 20px;}
+        main ul li #height {}
+        main ul li #weight {}
+        main ul li #goals { width: 280px;}
+        main #result {
+            width: 2000px; height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>다이어트 체중계</h1>
+        <p>당신의 건강몸무게를 알아보세요!</p>
+        <ul>
+            <li>현재 키 : <input type="text" id="height">cm</li>
+            <li>현재 몸무게 : <input type="text" id="weight">kg</li>
+            <li>최종 목표 : <input type="text" id="goals"></li>
+        </ul>
+        <button type="button" id="result">결과보기</button>
+        <script src="./index.js"></script>
+    </main>
+</body>
+</html>
